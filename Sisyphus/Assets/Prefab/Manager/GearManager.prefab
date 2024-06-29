@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4755457446607956077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4755457446607956075}
+  - component: {fileID: 4755457446607956076}
+  m_Layer: 0
+  m_Name: GearManager
+  m_TagString: GearManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4755457446607956075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4755457446607956077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.486397, y: 0.58422446, z: -3.1365638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4755457446607956076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4755457446607956077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eda1b32a6153584fbce54a2589ef3ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6598809887219913454, guid: 51c08a990ee8d48618da74a6505ba1a4, type: 3}
+  UIprefab: {fileID: 565726725825674431, guid: cd1ddcda9d8b74950ba84f36a2d81a08, type: 3}
+  armorSprite:
+  - {fileID: 1775100897, guid: c652dff8c335fff4cad1255d50d5b315, type: 3}
+  - {fileID: 1252369216, guid: c652dff8c335fff4cad1255d50d5b315, type: 3}
+  - {fileID: -428115476, guid: c652dff8c335fff4cad1255d50d5b315, type: 3}
+  - {fileID: -1142885985, guid: c652dff8c335fff4cad1255d50d5b315, type: 3}
+  - {fileID: -1449372106, guid: c652dff8c335fff4cad1255d50d5b315, type: 3}
+  extraBatterySprite:
+  - {fileID: 377678768, guid: 7cdd889ba0668834fbd48f18dab4ddec, type: 3}
+  - {fileID: -2014181931, guid: 7cdd889ba0668834fbd48f18dab4ddec, type: 3}
+  - {fileID: -1152446714, guid: 7cdd889ba0668834fbd48f18dab4ddec, type: 3}
+  - {fileID: 619176277, guid: 7cdd889ba0668834fbd48f18dab4ddec, type: 3}
+  - {fileID: -1800356595, guid: 7cdd889ba0668834fbd48f18dab4ddec, type: 3}
+  damageBoosterSprite:
+  - {fileID: -719333808, guid: c3e402332c5fb664092296f9388d2dbb, type: 3}
+  - {fileID: -232194048, guid: c3e402332c5fb664092296f9388d2dbb, type: 3}
+  - {fileID: -1853013613, guid: c3e402332c5fb664092296f9388d2dbb, type: 3}
+  - {fileID: -1853013613, guid: c3e402332c5fb664092296f9388d2dbb, type: 3}
+  - {fileID: -365895473, guid: c3e402332c5fb664092296f9388d2dbb, type: 3}
+  rangeBoosterSprite:
+  - {fileID: 1765785511, guid: 832d5d4e54337ea46a241feadeacb8e3, type: 3}
+  - {fileID: -1962123187, guid: 832d5d4e54337ea46a241feadeacb8e3, type: 3}
+  - {fileID: -97786543, guid: 832d5d4e54337ea46a241feadeacb8e3, type: 3}
+  - {fileID: 1483631001, guid: 832d5d4e54337ea46a241feadeacb8e3, type: 3}
+  - {fileID: -170995874, guid: 832d5d4e54337ea46a241feadeacb8e3, type: 3}
+  speedBoosterSprite:
+  - {fileID: 807553564, guid: 69616a5d318130f4f985dabaef35a70d, type: 3}
+  - {fileID: 1081170674, guid: 69616a5d318130f4f985dabaef35a70d, type: 3}
+  - {fileID: -920171976, guid: 69616a5d318130f4f985dabaef35a70d, type: 3}
+  - {fileID: -207360966, guid: 69616a5d318130f4f985dabaef35a70d, type: 3}
+  - {fileID: 777003674, guid: 69616a5d318130f4f985dabaef35a70d, type: 3}
+  attackSpdBoosterSprite:
+  - {fileID: -1390691416, guid: 60a37b4c541c9f744be78d291e901f4b, type: 3}
+  - {fileID: -2092910611, guid: 60a37b4c541c9f744be78d291e901f4b, type: 3}
+  - {fileID: -583984246, guid: 60a37b4c541c9f744be78d291e901f4b, type: 3}
+  - {fileID: -1345759612, guid: 60a37b4c541c9f744be78d291e901f4b, type: 3}
+  - {fileID: -1414988788, guid: 60a37b4c541c9f744be78d291e901f4b, type: 3}
